@@ -4,7 +4,7 @@ Durante a aula ao vivo do [Bernardo](https://github.com/bernardoroll) eu gostei 
 
 ## Jogo em ação
 
-![Amostra do jogo funcionando](https://i.imgur.com/rG0CTAG.gif)
+![Amostra do jogo funcionando](https://i.imgur.com/r0v1yqZ.gif)
 
 ## Implementações
 
@@ -13,3 +13,4 @@ Durante a aula ao vivo do [Bernardo](https://github.com/bernardoroll) eu gostei 
 - [X] Fazer o jogo ser automatico
 - [X] Fazer com que cada jogador receba uma cor aleatória
 - [X] Verificar se o jogo empatou ou apenas um jogador ganhou
+- [X] Carros bonitos com a possibilidade de trocar a cor
