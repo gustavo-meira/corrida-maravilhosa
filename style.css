@@ -1,0 +1,34 @@
+div {
+    width: 200px;
+    height: 100px;
+    background-image: url(https://www.nicepng.com/png/full/301-3010748_f1-car-icon-free-png-and-vector-car.png);
+    background-size: cover;
+  }
+  
+  .title-heading {
+    background-color: black;
+    color: red;
+    font-family: monospace;
+    font-size: xxx-large;
+  }
+  
+  .center {  
+    padding: 10px;
+    text-align: center;
+  }
+  
+   .car-section {
+    padding-top: 20px;
+  }
+  
+  .car {
+    margin-left: 0px;
+  }
+  
+  .select-button {
+    margin: 20px;
+  }
+  
+  .number-of-players {
+    font-size: 20px;
+  }
