@@ -16,6 +16,14 @@ let playerList = [];
 // Criando minha variavel que vai guardar o meu loop
 let loop = null;
 
+// Pega o arquivo svg
+let carImage = '';
+async function getSvg() {
+  await fetch('./car.svg').then(res => res.text()).then(svg => carImage = svg);
+}
+
+getSvg();
+
 function addPlayer() {
   // Verificando se tem 5 players no jogo, caso sim, retorne e não faça nada
   // Ou se loop for diferente de null para ver se o jogo ja começou
@@ -27,10 +35,14 @@ function addPlayer() {
   let newPlayer = document.createElement('div');
   newPlayer.classList = 'car';
   newPlayer.style.marginLeft = '0px';
-  
-  // Pegando uma cor aleatória e adicionando ao fundo do meu carro
+  // Coloca o svg dentro da div
+  newPlayer.innerHTML = carImage;
+  // Pegando uma cor aleatória
   newPlayerColor = getRandomColor();
-  newPlayer.style.backgroundColor = newPlayerColor;
+  // Pega o elemento com id background do svg
+  let carBackground = newPlayer.firstElementChild.querySelector('#background');
+  // Muda a cor do carro
+  carBackground.style.fill = newPlayerColor;
   
   // Adicionando uma margin bottom a div
   newPlayer.style.marginBottom = '10px';
