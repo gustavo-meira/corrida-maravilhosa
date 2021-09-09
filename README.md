@@ -4,7 +4,7 @@ Durante a aula ao vivo do [Bernardo](https://github.com/bernardoroll) eu gostei 
 
 ## Jogo em ação
 
-![Amostra do jogo funcionando](https://i.imgur.com/rG0CTAG.gif)
+![Amostra do jogo funcionando](https://i.imgur.com/r0v1yqZ.gif)
 
 ## Implementações
 
