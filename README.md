@@ -13,3 +13,4 @@ Durante a aula ao vivo do [Bernardo](https://github.com/bernardoroll) eu gostei 
 - [X] Fazer o jogo ser automatico
 - [X] Fazer com que cada jogador receba uma cor aleatória
 - [X] Verificar se o jogo empatou ou apenas um jogador ganhou
+- [X] Carros bonitos com a possibilidade de trocar a cor
